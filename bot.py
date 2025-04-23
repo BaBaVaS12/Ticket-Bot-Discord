@@ -67,6 +67,4 @@ async def setticket(ctx):
     await ctx.send("Baraye sakhte ticket, ruye dokme zir bezan:", view=view)
 
 import os
-
-TOKEN = os.getenv("MTM2NDY1ODg1MDgzMzIzNjA1OQ.GVYTIN.rqyJnKjlwikV2Juk0XGsDb1_dGxyEb-CIMT_q0")
-bot.run("MTM2NDY1ODg1MDgzMzIzNjA1OQ.GVYTIN.rqyJnKjlwikV2Juk0XGsDb1_dGxyEb-CIMT_q0")
+bot.run("TOKEN_BOT")
